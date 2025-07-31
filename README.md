@@ -1,0 +1,1 @@
+This is a simple web tool designed to generate and validate 12-digit numbers using the Verhoeff algorithm—the same checksum method used for Indian Aadhaar numbers. It enables easy, reliable Aadhaar-like ID creation and validation for testing, learning, and demonstration purposes.
