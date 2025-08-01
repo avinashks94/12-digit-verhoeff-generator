@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Free online tool to generate and validate 12-digit Aadhaar-like numbers using the Verhoeff algorithm. Perfect for testing, learning, and demos." />
-
   <title>12-Digit Verhoeff Number Generator</title>
   <style>
     * {
@@ -76,6 +75,7 @@
     }
 
     #output {
+      display: none;
       margin-top: 30px;
       background: #ffffff;
       border-radius: 12px;
@@ -212,6 +212,7 @@
         </div>
       `;
 
+      document.getElementById('output').style.display = 'block';
       document.getElementById('copyBtn').style.display = 'inline-block';
       document.getElementById('copySuccessMsg').style.display = 'none';
     }
